@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57380FD61E28A8DB00C0E146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57380FD51E28A8DB00C0E146 /* main.m */; };
+		57380FD91E28A8DB00C0E146 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57380FD81E28A8DB00C0E146 /* AppDelegate.m */; };
+		57380FDC1E28A8DB00C0E146 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57380FDB1E28A8DB00C0E146 /* ViewController.m */; };
+		57380FDF1E28A8DB00C0E146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57380FDD1E28A8DB00C0E146 /* Main.storyboard */; };
+		57380FE11E28A8DB00C0E146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57380FE01E28A8DB00C0E146 /* Assets.xcassets */; };
+		57380FE41E28A8DB00C0E146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57380FE21E28A8DB00C0E146 /* LaunchScreen.storyboard */; };
+		57380FEF1E28A8DB00C0E146 /* ZVScratchCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57380FEE1E28A8DB00C0E146 /* ZVScratchCardTests.m */; };
+		57380FFA1E28A8DB00C0E146 /* ZVScratchCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57380FF91E28A8DB00C0E146 /* ZVScratchCardUITests.m */; };
+		573810091E28A94400C0E146 /* ZVScratchCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573810081E28A94400C0E146 /* ZVScratchCardView.m */; };
+		5738100C1E2CAB8D00C0E146 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5738100A1E2CAB8D00C0E146 /* test1.jpg */; };
+		5738100D1E2CAB8D00C0E146 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5738100B1E2CAB8D00C0E146 /* test2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57380FEB1E28A8DB00C0E146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57380FC91E28A8DB00C0E146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57380FD01E28A8DB00C0E146;
+			remoteInfo = ZVScratchCard;
+		};
+		57380FF61E28A8DB00C0E146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57380FC91E28A8DB00C0E146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57380FD01E28A8DB00C0E146;
+			remoteInfo = ZVScratchCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57380FD11E28A8DB00C0E146 /* ZVScratchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZVScratchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57380FD51E28A8DB00C0E146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57380FD71E28A8DB00C0E146 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57380FD81E28A8DB00C0E146 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57380FDA1E28A8DB00C0E146 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57380FDB1E28A8DB00C0E146 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57380FDE1E28A8DB00C0E146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57380FE01E28A8DB00C0E146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57380FE31E28A8DB00C0E146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57380FE51E28A8DB00C0E146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57380FEA1E28A8DB00C0E146 /* ZVScratchCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZVScratchCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57380FEE1E28A8DB00C0E146 /* ZVScratchCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVScratchCardTests.m; sourceTree = "<group>"; };
+		57380FF01E28A8DB00C0E146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57380FF51E28A8DB00C0E146 /* ZVScratchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZVScratchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57380FF91E28A8DB00C0E146 /* ZVScratchCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVScratchCardUITests.m; sourceTree = "<group>"; };
+		57380FFB1E28A8DB00C0E146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573810071E28A94400C0E146 /* ZVScratchCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZVScratchCardView.h; path = ZVScratchCard/ZVScratchCardView.h; sourceTree = SOURCE_ROOT; };
+		573810081E28A94400C0E146 /* ZVScratchCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZVScratchCardView.m; path = ZVScratchCard/ZVScratchCardView.m; sourceTree = SOURCE_ROOT; };
+		5738100A1E2CAB8D00C0E146 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		5738100B1E2CAB8D00C0E146 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57380FCE1E28A8DB00C0E146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57380FE71E28A8DB00C0E146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57380FF21E28A8DB00C0E146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5731DE971E52B44200405D6B /* ZVScratchCardView */ = {
+			isa = PBXGroup;
+			children = (
+				573810071E28A94400C0E146 /* ZVScratchCardView.h */,
+				573810081E28A94400C0E146 /* ZVScratchCardView.m */,
+			);
+			path = ZVScratchCardView;
+			sourceTree = "<group>";
+		};
+		57380FC81E28A8DB00C0E146 = {
+			isa = PBXGroup;
+			children = (
+				57380FD31E28A8DB00C0E146 /* ZVScratchCard */,
+				57380FED1E28A8DB00C0E146 /* ZVScratchCardTests */,
+				57380FF81E28A8DB00C0E146 /* ZVScratchCardUITests */,
+				57380FD21E28A8DB00C0E146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57380FD21E28A8DB00C0E146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57380FD11E28A8DB00C0E146 /* ZVScratchCard.app */,
+				57380FEA1E28A8DB00C0E146 /* ZVScratchCardTests.xctest */,
+				57380FF51E28A8DB00C0E146 /* ZVScratchCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57380FD31E28A8DB00C0E146 /* ZVScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				5731DE971E52B44200405D6B /* ZVScratchCardView */,
+				5738100A1E2CAB8D00C0E146 /* test1.jpg */,
+				5738100B1E2CAB8D00C0E146 /* test2.jpg */,
+				57380FD71E28A8DB00C0E146 /* AppDelegate.h */,
+				57380FD81E28A8DB00C0E146 /* AppDelegate.m */,
+				57380FDA1E28A8DB00C0E146 /* ViewController.h */,
+				57380FDB1E28A8DB00C0E146 /* ViewController.m */,
+				57380FDD1E28A8DB00C0E146 /* Main.storyboard */,
+				57380FE01E28A8DB00C0E146 /* Assets.xcassets */,
+				57380FE21E28A8DB00C0E146 /* LaunchScreen.storyboard */,
+				57380FE51E28A8DB00C0E146 /* Info.plist */,
+				57380FD41E28A8DB00C0E146 /* Supporting Files */,
+			);
+			path = ZVScratchCard;
+			sourceTree = "<group>";
+		};
+		57380FD41E28A8DB00C0E146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57380FD51E28A8DB00C0E146 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57380FED1E28A8DB00C0E146 /* ZVScratchCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				57380FEE1E28A8DB00C0E146 /* ZVScratchCardTests.m */,
+				57380FF01E28A8DB00C0E146 /* Info.plist */,
+			);
+			path = ZVScratchCardTests;
+			sourceTree = "<group>";
+		};
+		57380FF81E28A8DB00C0E146 /* ZVScratchCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57380FF91E28A8DB00C0E146 /* ZVScratchCardUITests.m */,
+				57380FFB1E28A8DB00C0E146 /* Info.plist */,
+			);
+			path = ZVScratchCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57380FD01E28A8DB00C0E146 /* ZVScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57380FFE1E28A8DB00C0E146 /* Build configuration list for PBXNativeTarget "ZVScratchCard" */;
+			buildPhases = (
+				57380FCD1E28A8DB00C0E146 /* Sources */,
+				57380FCE1E28A8DB00C0E146 /* Frameworks */,
+				57380FCF1E28A8DB00C0E146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZVScratchCard;
+			productName = ZVScratchCard;
+			productReference = 57380FD11E28A8DB00C0E146 /* ZVScratchCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57380FE91E28A8DB00C0E146 /* ZVScratchCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573810011E28A8DB00C0E146 /* Build configuration list for PBXNativeTarget "ZVScratchCardTests" */;
+			buildPhases = (
+				57380FE61E28A8DB00C0E146 /* Sources */,
+				57380FE71E28A8DB00C0E146 /* Frameworks */,
+				57380FE81E28A8DB00C0E146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57380FEC1E28A8DB00C0E146 /* PBXTargetDependency */,
+			);
+			name = ZVScratchCardTests;
+			productName = ZVScratchCardTests;
+			productReference = 57380FEA1E28A8DB00C0E146 /* ZVScratchCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57380FF41E28A8DB00C0E146 /* ZVScratchCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573810041E28A8DB00C0E146 /* Build configuration list for PBXNativeTarget "ZVScratchCardUITests" */;
+			buildPhases = (
+				57380FF11E28A8DB00C0E146 /* Sources */,
+				57380FF21E28A8DB00C0E146 /* Frameworks */,
+				57380FF31E28A8DB00C0E146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57380FF71E28A8DB00C0E146 /* PBXTargetDependency */,
+			);
+			name = ZVScratchCardUITests;
+			productName = ZVScratchCardUITests;
+			productReference = 57380FF51E28A8DB00C0E146 /* ZVScratchCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57380FC91E28A8DB00C0E146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = victor;
+				TargetAttributes = {
+					57380FD01E28A8DB00C0E146 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4HUDK84LF7;
+						ProvisioningStyle = Automatic;
+					};
+					57380FE91E28A8DB00C0E146 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4HUDK84LF7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57380FD01E28A8DB00C0E146;
+					};
+					57380FF41E28A8DB00C0E146 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4HUDK84LF7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57380FD01E28A8DB00C0E146;
+					};
+				};
+			};
+			buildConfigurationList = 57380FCC1E28A8DB00C0E146 /* Build configuration list for PBXProject "ZVScratchCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57380FC81E28A8DB00C0E146;
+			productRefGroup = 57380FD21E28A8DB00C0E146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57380FD01E28A8DB00C0E146 /* ZVScratchCard */,
+				57380FE91E28A8DB00C0E146 /* ZVScratchCardTests */,
+				57380FF41E28A8DB00C0E146 /* ZVScratchCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57380FCF1E28A8DB00C0E146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57380FE41E28A8DB00C0E146 /* LaunchScreen.storyboard in Resources */,
+				5738100D1E2CAB8D00C0E146 /* test2.jpg in Resources */,
+				5738100C1E2CAB8D00C0E146 /* test1.jpg in Resources */,
+				57380FE11E28A8DB00C0E146 /* Assets.xcassets in Resources */,
+				57380FDF1E28A8DB00C0E146 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57380FE81E28A8DB00C0E146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57380FF31E28A8DB00C0E146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57380FCD1E28A8DB00C0E146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57380FDC1E28A8DB00C0E146 /* ViewController.m in Sources */,
+				57380FD91E28A8DB00C0E146 /* AppDelegate.m in Sources */,
+				57380FD61E28A8DB00C0E146 /* main.m in Sources */,
+				573810091E28A94400C0E146 /* ZVScratchCardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57380FE61E28A8DB00C0E146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57380FEF1E28A8DB00C0E146 /* ZVScratchCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57380FF11E28A8DB00C0E146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57380FFA1E28A8DB00C0E146 /* ZVScratchCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57380FEC1E28A8DB00C0E146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57380FD01E28A8DB00C0E146 /* ZVScratchCard */;
+			targetProxy = 57380FEB1E28A8DB00C0E146 /* PBXContainerItemProxy */;
+		};
+		57380FF71E28A8DB00C0E146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57380FD01E28A8DB00C0E146 /* ZVScratchCard */;
+			targetProxy = 57380FF61E28A8DB00C0E146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57380FDD1E28A8DB00C0E146 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57380FDE1E28A8DB00C0E146 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57380FE21E28A8DB00C0E146 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57380FE31E28A8DB00C0E146 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57380FFC1E28A8DB00C0E146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57380FFD1E28A8DB00C0E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57380FFF1E28A8DB00C0E146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HUDK84LF7;
+				INFOPLIST_FILE = ZVScratchCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.ZVScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		573810001E28A8DB00C0E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HUDK84LF7;
+				INFOPLIST_FILE = ZVScratchCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.ZVScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		573810021E28A8DB00C0E146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4HUDK84LF7;
+				INFOPLIST_FILE = ZVScratchCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.ZVScratchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZVScratchCard.app/ZVScratchCard";
+			};
+			name = Debug;
+		};
+		573810031E28A8DB00C0E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4HUDK84LF7;
+				INFOPLIST_FILE = ZVScratchCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.ZVScratchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZVScratchCard.app/ZVScratchCard";
+			};
+			name = Release;
+		};
+		573810051E28A8DB00C0E146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4HUDK84LF7;
+				INFOPLIST_FILE = ZVScratchCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.ZVScratchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZVScratchCard;
+			};
+			name = Debug;
+		};
+		573810061E28A8DB00C0E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4HUDK84LF7;
+				INFOPLIST_FILE = ZVScratchCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.ZVScratchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZVScratchCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57380FCC1E28A8DB00C0E146 /* Build configuration list for PBXProject "ZVScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57380FFC1E28A8DB00C0E146 /* Debug */,
+				57380FFD1E28A8DB00C0E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57380FFE1E28A8DB00C0E146 /* Build configuration list for PBXNativeTarget "ZVScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57380FFF1E28A8DB00C0E146 /* Debug */,
+				573810001E28A8DB00C0E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573810011E28A8DB00C0E146 /* Build configuration list for PBXNativeTarget "ZVScratchCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573810021E28A8DB00C0E146 /* Debug */,
+				573810031E28A8DB00C0E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573810041E28A8DB00C0E146 /* Build configuration list for PBXNativeTarget "ZVScratchCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573810051E28A8DB00C0E146 /* Debug */,
+				573810061E28A8DB00C0E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57380FC91E28A8DB00C0E146 /* Project object */;
+}
