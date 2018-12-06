@@ -54,8 +54,8 @@
 		57380FF51E28A8DB00C0E146 /* ZVScratchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZVScratchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57380FF91E28A8DB00C0E146 /* ZVScratchCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVScratchCardUITests.m; sourceTree = "<group>"; };
 		57380FFB1E28A8DB00C0E146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		573810071E28A94400C0E146 /* ZVScratchCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZVScratchCardView.h; path = ZVScratchCard/ZVScratchCardView.h; sourceTree = SOURCE_ROOT; };
-		573810081E28A94400C0E146 /* ZVScratchCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZVScratchCardView.m; path = ZVScratchCard/ZVScratchCardView.m; sourceTree = SOURCE_ROOT; };
+		573810071E28A94400C0E146 /* ZVScratchCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZVScratchCardView.h; path = ZVScratchCard/ZVScratchCardView/ZVScratchCardView.h; sourceTree = SOURCE_ROOT; };
+		573810081E28A94400C0E146 /* ZVScratchCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZVScratchCardView.m; path = ZVScratchCard/ZVScratchCardView/ZVScratchCardView.m; sourceTree = SOURCE_ROOT; };
 		5738100A1E2CAB8D00C0E146 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
 		5738100B1E2CAB8D00C0E146 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5731DE971E52B44200405D6B /* ZVScratchCardView */ = {
+		5731ACAC21B910B200E5D515 /* ZVScratchCardView */ = {
 			isa = PBXGroup;
 			children = (
 				573810071E28A94400C0E146 /* ZVScratchCardView.h */,
@@ -117,7 +117,7 @@
 		57380FD31E28A8DB00C0E146 /* ZVScratchCard */ = {
 			isa = PBXGroup;
 			children = (
-				5731DE971E52B44200405D6B /* ZVScratchCardView */,
+				5731ACAC21B910B200E5D515 /* ZVScratchCardView */,
 				5738100A1E2CAB8D00C0E146 /* test1.jpg */,
 				5738100B1E2CAB8D00C0E146 /* test2.jpg */,
 				57380FD71E28A8DB00C0E146 /* AppDelegate.h */,
