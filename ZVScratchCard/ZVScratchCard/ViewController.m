@@ -21,7 +21,6 @@
     v = [[ZVScratchCardView alloc]initWithFrame:CGRectMake(100, 100, 200, 300)];
     v.surfaceView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"test1.jpg"]];
     v.innerView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"test2.jpg"]];
-    [v startDrawing];
     [self.view addSubview:v];
     UIButton *btn  = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
